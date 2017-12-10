@@ -1,0 +1,8 @@
+<h1>{{ (greeting$ | async).message }}</h1>
+<div>
+    <button (click)="onMorningClicked()">It's morning</button>
+    <button (click)="onAfternoonClicked()">It's after noon</button>
+    <button (click)="onEveningClicked()">It's night</button>
+    <button (click)="onUnknownClicked()">I don't know what time it is...</button>
+</div>
+
